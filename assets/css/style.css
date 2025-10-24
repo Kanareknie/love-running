@@ -1,4 +1,4 @@
-body {
+/* body {
   font-family: system-ui, Segoe UI, Roboto, Arial, sans-serif;
   margin: 0;
   padding: 2rem;
@@ -16,4 +16,17 @@ header, footer {
 main {
   text-align: center;
   margin-top: 3rem;
+} */
+
+
+header {
+  background-color: aqua;
+}
+
+main {
+  background-color: aquamarine;
+}
+
+footer {
+  background-color: cadetblue;
 }
