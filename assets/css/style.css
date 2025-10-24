@@ -1,32 +1,33 @@
-/* body {
-  font-family: system-ui, Segoe UI, Roboto, Arial, sans-serif;
-  margin: 0;
-  padding: 2rem;
-  background: #f7f9fb;
-  color: #333;
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-header, footer {
-  background: #ff3366;
-  color: white;
-  padding: 1rem;
-  text-align: center;
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
 }
 
-main {
-  text-align: center;
-  margin-top: 3rem;
-} */
 
-
+/* Header */
 header {
-  background-color: aqua;
+    background-color: lightcoral;
 }
 
+/* Main content */
 main {
-  background-color: aquamarine;
+    background-color: lightblue;
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
 }
 
+/* Footer */
 footer {
-  background-color: cadetblue;
+    background-color: orange;
 }
