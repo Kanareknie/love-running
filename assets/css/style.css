@@ -276,3 +276,31 @@ i {
 
 
 }
+
+/* Meets up Times */
+
+#times {
+    background: url("../images/dublin-city.webp") no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    /* to make the divs flex when adjusting the screen less then 400px wide*/
+    flex-basis: 200px;
+    flex-grow: 1;
+     /* creates the white border */
+    border: 2px solid #fafafa;
+   
+}
+
+#times h3, i {
+    /* Override the heading colour set in general styles */
+    color: #fafafa; 
+   
+}
+
