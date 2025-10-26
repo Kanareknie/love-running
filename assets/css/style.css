@@ -131,6 +131,25 @@ hr {
     margin: 5px 0;
 }
 
+/* Benefit piture */
+
+#circle-cover-bg {
+    background: url("../images/reasons-image.webp") no-repeat top center / cover;
+    width: 90vw;
+    height: 90vw;
+    padding-bottom: 20px;
+    /* makes the squere image into circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Final rgba value sets the opacity so it is semi */
 #cover-text {
     background-color: rgba(241, 109, 107, .7) ;
